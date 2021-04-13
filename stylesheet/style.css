@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600;1,700&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+nav{
+     height: 80px;
+     width: 100%;
+     max-width: 1300px;
+     margin: 0 auto;
+
+}
+label.logo{
+     font-weight: bold;
+     font-size: 40px;
+     color: blue;
+     
+     line-height: 80px;
+}
+nav ul.header_link{
+     float: right;
+     line-height: 80px;
+     
+}
+nav ul.header_link li{
+     list-style: none;
+     display: inline;
+     margin: 0 20px;
+     
+     
+}
+nav ul.header_link li a{
+     text-transform: uppercase;
+     text-decoration: none;
+     color: blue;
+     font-weight: bold;
+}
+nav ul.header_link li a:hover{
+     color: rgb(114, 114, 240);
+     transition-duration: .5s;
+}
+nav ul.header_link li a.contact_btn{
+     padding: 15px;
+     background: blue;
+     color: white;
+     border-radius: 30px;
+}
+
+
+
+section.hero_section{
+     max-width: 1300px;
+     margin: 0 auto;
+     
+}
+.hero{
+     width: 100%;
+     height: auto;
+     background: whitesmoke;
+}
+.hero .hero_content{
+     
+     
+     float: left;
+     max-width: 749px;
+     width: 50%px;
+     
+     
+}
+.hero_heading{
+     font-weight: bolder;
+     font-size: 45px;
+     margin: 180px 0 20px 0;
+}
+.hero_para{
+     text-align: left;
+     margin: 0 200px 40px 0;
+}
+.hero_btn{
+     padding: 15px 30px;
+     background: blue;
+     color: white;
+     border-radius: 30px;
+     text-transform: uppercase;
+     text-decoration: none;
+     
+}
+.hero_img{
+     margin: 40px auto;
+     height: 500px;
+     width: 550px;
+}
+.social_btn{
+     margin: 50px 0;
+}
+.fab{
+     color: blue;
+     font-size: 25px;
+     margin: 15px;
+     
+
+}
+
+/* Service Section Design Start*/
+     section.service_section{
+          max-width: 1300px;
+          margin: auto;
+          text-align: center;
+          
+     }
+     h2.section_heading{
+          font-size: 40px;
+          font-weight: bold;
+          text-align: center;
+          margin: 20px auto;
+     }
+     .service_box{
+          width: 98%;
+          height: 400px;
+          text-align: center;
+
+     }
+     .service_content{
+          float: left;
+          width: 50%;
+          margin: auto;
+          text-align: center;
+     }
+     .service_img{
+          width: 80%;
+     }
+     .service_content_heading{
+          font-size: 25px;
+          text-align: left;
+          margin-top: 130px;
+          margin-right: 50px;
+          margin-left: 50px;
+
+     }
+     .service_content_para{
+          font-size: 20px;
+          text-align: left;
+          margin: 0 50px;
+     }
+/* Service Section Design End*/
+
+
+/* About Section Design Start */
+section.about_section{
+     max-width: 1300px;
+     margin: 200px auto;
+}
+h2.about_heading{
+     font-size: 40px;
+     font-weight: bold;
+     text-align: center;
+     margin: 40px auto;
+     
+}
+.about_box{
+     width: 98%;
+     height: 450px;
+     text-align: center;
+
+}
+.about_content{
+     float: left;
+     width: 50%;
+     margin: auto;
+     text-align: center;
+}
+.about_img{
+     width: 70%;
+}
+.about_content_heading{
+     font-size: 25px;
+     text-align: left;
+     margin-top: 50px;
+     margin-right: 50px;
+     margin-left: 50px;
+
+}
+.about_content_para{
+     font-size: 20px;
+     text-align: left;
+     margin: 0 50px;
+}
+
+
+.skill_box{
+     width: 100%;
+     text-align: center;
+     background: rgb(119, 66, 66);
+}
+.skill_content{
+     height: 180px;
+     width: 200px;
+     text-align: center;
+     float: left;
+     margin: 0 8.33px;
+}
+.skill_container{
+     background: none;
+     height: 100px;
+     width: 100px;
+     border: 7px solid black;
+     border-radius: 50%;
+     text-align: center;
+     margin: 0 43px;
+}
+h3.skill_percentage{
+     font-size: 35px;
+     color: rgb(7, 23, 255);
+     padding: 20px 0;
+}
+.skill_name{
+     font-size: 25px;
+     font-weight: bold;
+     color: rgb(14, 14, 14);
+     margin-top: 10px;
+}
+/* About Section Design End */
+
+/* Portfolio Section Design Start */
+section.portfolio_section{
+     max-width: 1300px;
+     margin: 250px auto;
+}
+h2.portfolio_heading{
+     font-size: 40px;
+     font-weight: bold;
+     text-align: center;
+     margin: 40px auto;
+     
+}
+.tag_box{
+     width: 100%;
+     height: auto;
+     text-align: center;
+}
+.tag{
+     float: left;
+     height: 40px;
+     width: auto;
+     font-size: 20px;
+     margin: 5px 5px;
+     padding: 5px;
+     border: 1px solid black;
+     border-radius: 25px;
+}
+.tag_name{
+     text-decoration: none;
+     color: black;
+}
+.tag_name:visited{
+     color: blue;
+}
+
+.portfolio_box{
+     width: 100%;
+     
+     margin-top: 200px;
+     text-align: center;
+}
+.portfolio_item{
+     display: inline-block;
+     height: 300px;
+     width: 30%;
+     border: 5px solid rgba(0, 0, 255, 0.555);
+     border-radius: 10px;
+     text-align: center;
+     margin: 15px;
+}
+.portfolio_item:hover{
+     opacity: .9;
+}
+.portfolio_img{
+     height: 280px;
+     width: 300px;
+     
+}
+
+.portfolio_caption{
+     
+     text-decoration: none;
+     color: rgb(245, 1, 74);
+     font-size: 25px;
+     font-weight: bold;
+     position: absolute;
+     margin-top: 210px;
+     margin-left: -320px;
+     opacity: .1;
+}
+.portfolio_caption:hover{
+     opacity: 1;
+}
+/* Portfolio Section Design End */
+
+/* Contact Section Design Start */
+section.contact_section{
+     max-width: 1300px;
+     margin: 200px auto;
+}
+h2.contact_heading{
+     font-size: 40px;
+     font-weight: bold;
+     text-align: center;
+     margin: 50px auto;
+     
+}
+.contact_form_container{
+     width: 100%;
+     text-align: center;
+     
+     
+}
+.contact_form_container form input{
+     height: 50px;
+     width: 47%;
+     
+     font-size: 20px;
+     margin: 10px;
+     text-align: left;
+     border: none;
+     border-bottom: 2px solid blue;
+     outline: none;
+}
+form textarea{
+     width: 95%;
+     border: none;
+     border-bottom: 2px solid blue;
+     outline: none;
+     margin: 15px;
+     font-size: 20px;
+}
+.sent_btn{
+     height: 60px;
+     width: 95%;
+     margin: 15px;
+     background: blue;
+     color: white;
+     outline: none;
+     text-align: center;
+     font-weight: bold;
+     font-size: 30px;
+     border: none;
+     border-radius: 25px;
+}
+/* Contact Section Design End */
+
+/* Footer Section Design Start */
+footer{
+     max-width: 1300px;
+     margin: 0 auto;
+     align-items: center;
+     background: rgb(5, 4, 77);
+}
+.footer_content{
+     display: inline-block;
+     width: 30%;
+     margin: 30px 20px;
+}
+.footer_caption{
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+}
+.footer_para{
+     color: rgb(155, 152, 152);
+}
+
+ul.footer_link li{
+     list-style-type: circle;
+}
+ul.footer_link li a{
+     text-transform: uppercase;
+     text-decoration: none;
+     color: rgb(155, 152, 152);
+}
+.footer_cpright{
+     width: 100%;
+     text-align: center;
+     background: black;
+}
+.footer_cpright p{
+     color: white;
+}
+.footer_cpright a{
+     text-decoration: none;
+     color: green;
+     font-weight: bold;
+}
+/* Footer Section Design End */
